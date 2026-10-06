@@ -1,0 +1,9 @@
+{
+  "name": "devtools-image-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"dev": "tsx src/server.ts", "test": "tsx test/image_upload.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"sharp": "^0.33.5", "zod": "^3.23.8"},
+  "devDependencies": {"@types/node": "^22.5.0", "tsx": "^4.19.1", "typescript": "^5.6.2"}
+}
